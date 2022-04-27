@@ -24,4 +24,13 @@ Update Server with new Changes
 3. git push heroku main
 
 =====================================================================
+Connect Server With Clients and deploy client side
+
+1.replace localhost by heroku link (from client side)
+2.npm run build
+3.firebase deploy
+
+
+
+
 */
