@@ -112,6 +112,9 @@ run().catch(console.dir);
 app.get("/", (req, res) => {
   res.send("Running Genius Cars server");
 });
+app.get("/hero", (req, res) => {
+  res.send("I am hero vaiya");
+});
 
 app.listen(port, () => {
   console.log("Listening to port", port);
